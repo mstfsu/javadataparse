@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane prefHeight="932.0" prefWidth="2000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.drawBarChart">
+    <content>
+
+<AnchorPane prefHeight="932.0" prefWidth="2000.0">
+   <children>
+
+      <BarChart fx:id="barChart" layoutX="50.0" layoutY="49.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="832.0" prefWidth="1428.0">
+          <yAxis>
+              <CategoryAxis side="LEFT" />
+          </yAxis>
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+
+      </BarChart>
+      <Button layoutX="150.0" layoutY="23.0" mnemonicParsing="false" onAction="#stop" text="Durdur" />
+      <Button layoutX="50.0" layoutY="23.0" mnemonicParsing="false" onAction="#goMain" text="Ana Sayfa" />
+      <Button layoutX="255.0" layoutY="23.0" mnemonicParsing="false" onAction="#start" text="Başlat" />
+      <Button layoutX="364.0" layoutY="23.0" mnemonicParsing="false" onAction="#restart" text="Sıfırla" />
+   </children>
+</AnchorPane>
+    </content>
+</ScrollPane>

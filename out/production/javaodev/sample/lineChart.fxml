@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane prefHeight="932.0" prefWidth="2119.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.drawChart">
+    <content>
+
+<AnchorPane prefHeight="950.0" prefWidth="2093.0">
+   <children>
+      <LineChart fx:id="chartLine" layoutX="14.0" layoutY="68.0" prefHeight="658.0" prefWidth="1973.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button layoutX="133.0" layoutY="25.0" mnemonicParsing="false" onAction="#goMain" text="Ana Sayfa" />
+   </children>
+</AnchorPane>
+    </content>
+</ScrollPane>

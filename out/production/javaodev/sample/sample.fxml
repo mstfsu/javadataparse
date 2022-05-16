@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="urlText" layoutX="143.0" layoutY="84.0" prefHeight="25.0" prefWidth="358.0" />
+      <Label layoutX="42.0" layoutY="88.0" prefHeight="17.0" prefWidth="75.0" text="Url" />
+      <Button defaultButton="true" layoutX="165.0" layoutY="166.0" mnemonicParsing="false" onAction="#goLineChart" prefHeight="38.0" prefWidth="115.0" text="Go Line Chart">
+
+      </Button>
+      <Button layoutX="322.0" defaultButton="true" layoutY="166.0" mnemonicParsing="false" onAction="#goBarChart" prefHeight="38.0" prefWidth="115.0" text="Go Bar Chart" />
+
+   </children>
+</Pane>
